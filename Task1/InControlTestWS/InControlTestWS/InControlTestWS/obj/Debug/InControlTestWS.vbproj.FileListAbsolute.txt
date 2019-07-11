@@ -1,0 +1,12 @@
+F:\InControlTestWS\InControlTestWS\InControlTestWS\bin\Debug\InControlTestWS.exe.config
+F:\InControlTestWS\InControlTestWS\InControlTestWS\bin\Debug\InControlTestWS.exe
+F:\InControlTestWS\InControlTestWS\InControlTestWS\bin\Debug\InControlTestWS.pdb
+F:\InControlTestWS\InControlTestWS\InControlTestWS\bin\Debug\InControlTestWS.xml
+F:\InControlTestWS\InControlTestWS\InControlTestWS\obj\Debug\InControlTestWS.vbprojAssemblyReference.cache
+F:\InControlTestWS\InControlTestWS\InControlTestWS\obj\Debug\InControlTestWS.Resources.resources
+F:\InControlTestWS\InControlTestWS\InControlTestWS\obj\Debug\InControlTestWS.ProjectInstaller.resources
+F:\InControlTestWS\InControlTestWS\InControlTestWS\obj\Debug\InControlTestWS.vbproj.GenerateResource.cache
+F:\InControlTestWS\InControlTestWS\InControlTestWS\obj\Debug\InControlTestWS.vbproj.CoreCompileInputs.cache
+F:\InControlTestWS\InControlTestWS\InControlTestWS\obj\Debug\InControlTestWS.exe
+F:\InControlTestWS\InControlTestWS\InControlTestWS\obj\Debug\InControlTestWS.xml
+F:\InControlTestWS\InControlTestWS\InControlTestWS\obj\Debug\InControlTestWS.pdb
