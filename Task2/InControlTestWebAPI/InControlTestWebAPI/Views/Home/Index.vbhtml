@@ -1,25 +1,66 @@
-﻿<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+﻿
+
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
-        a broad range of clients, including browsers and mobile devices. ASP.NET Web API
-        is an ideal platform for building RESTful applications on the .NET Framework.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
+    <div class="col-sm-10">
+        <h3>List of All Products </h3>
+        <hr />
+        <table id="tblProducts" class="table table-bordered table-condensed table-hover table-striped table-sm table-responsive">
+            <thead>
+                <tr>
+                    <th>Product Id</th>
+                    <th>Product Name</th>
+                    <th>Supplier Name</th>
+                    <th>Category Name</th>
+                    <th>Qty Per Unit</th>
+                    <th>Unit Price</th>
+                    <th>Units In Stock</th>
+                    <th>Units On Order</th>
+                    <th>Reorder Level</th>
+                    <th>Discontinued</th>
+                </tr>
+            </thead>
+        </table>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
+
+    <div class="row">
+        <div class="col-sm-10">
+            <h2>List of All Suppliers </h2>
+            <a class="editor_create btn btn-success m-3">Create new Supplier</a>
+            <table id="tblSuppliers" class="table table-bordered table-condensed table-hover table-striped table-sm">
+                <thead>
+                    <tr>
+                        <th>Supplier ID</th>
+                        <th>Company Name</th>
+                        <th>Contact Name</th>
+                        <th>Contact Title</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>Region</th>
+                        <th>Postal Code</th>
+                        <th>Country</th>
+                        <th>Phone</th>
+                        <th>Fax</th>
+                        <th>HomePage</th>
+                        <th>Edit/Delete</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
+    <div class="row">
+        <div class="col-sm-10">
+            <h2>List of All Categories </h2>
+
+            <table id="tblCategories" class="table table-bordered table-condensed table-hover table-striped table-sm table-responsive">
+                <thead>
+                    <tr>
+                        <th>Category ID</th>
+                        <th>Category Name</th>
+                        <th>Description</th>
+                        <th>Picture</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
     </div>
 </div>
