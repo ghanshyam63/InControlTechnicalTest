@@ -1,5 +1,5 @@
 ﻿
-
+<script src="~/Scripts/View/Index.js" type="text/javascript"></script>
 <div class="row">
     <div class="col-sm-10">
         <h3>List of All Products </h3>
