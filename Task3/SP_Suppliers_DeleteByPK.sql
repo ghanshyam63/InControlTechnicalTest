@@ -10,20 +10,24 @@
 
 CREATE PROCEDURE [dbo].[SP_Suppliers_DeleteByPK]
 
-		@SupplierID 		int
+		@SupplierID 		int,
+		@DeletedRows		int output	
 
 AS
 
-SET NOCOUNT ON;
+SET NOCOUNT OFF;
 
 BEGIN TRY
 BEGIN TRAN
 
 	DELETE FROM [dbo].[Suppliers]
 	WHERE [dbo].[Suppliers].[SupplierID] = @SupplierID
+	
+
+ 	SELECT @DeletedRows = @@ROWCOUNT
 
 
-COMMIT TRAN
+COMMIT TRA
 END TRY
 
 BEGIN CATCH
